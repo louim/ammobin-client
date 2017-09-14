@@ -10,7 +10,7 @@
     "es6-promise": "^4.1.1",
     "nuxt": "1.0.0-rc9",
     "purecss": "^1.0.0",
-    "vue-style-loader": "^3.0.1"
+    "vue-style-loader": "^3.0.3"
   },
   "devDependencies": {
     "snyk": "^1.36.0"
