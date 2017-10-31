@@ -25,6 +25,20 @@
     </div>
     <nuxt/>
     <footer class="footer">
+      <div class="pure-g " >
+        <div class="pure-u-1-4">
+          <a href="https://github.com/ammobindotca"><img class="pure-img shitty-social" src="~/assets/github.png"></a>
+        </div>
+        <div class="pure-u-1-4" >
+          <a href="https://www.instagram.com/ammobin.ca/"><img class="pure-img shitty-social" src="~/assets/instagram.png"></a>
+        </div>
+        <div class="pure-u-1-4">
+          <a href="https://twitter.com/ammobinca"><img class="pure-img shitty-social" src="~/assets/twitter.png"></a>
+        </div>
+        <div class="pure-u-1-4">
+          <a><img class="pure-img shitty-social" src="~/assets/facebook.png"></a>
+        </div>
+      </div>
       AmmoBin.ca {{new Date().getFullYear()}}
       <a v-bind:href="mail">Contact</a>
     </footer>
@@ -72,5 +86,9 @@ export default {
   .fork-me-hard-dady {
     display: none;
   }
+}
+
+.shitty-social {
+  height: 25px;
 }
 </style>
